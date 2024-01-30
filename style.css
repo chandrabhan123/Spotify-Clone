@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+
+}
+
+.left{
+    width: 25vw;
+}
+
+.right{
+    width: 75vw;
+}
+
+.home ul li{
+    width: 15px;
+    display: flex;
+    gap: 10px;
+}
