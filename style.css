@@ -1,24 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-
 
 }
 
-.left{
+body {}
+
+.left {
     width: 25vw;
+    padding: 5px;
 }
 
-.right{
+.right {
     width: 75vw;
 }
 
-.home ul li{
+.home ul li {
     width: 15px;
     display: flex;
-    gap: 10px;
+    gap: 16px;
+    list-style: none;
+    padding-top: 15px;
 }
+
