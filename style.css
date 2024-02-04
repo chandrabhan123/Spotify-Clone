@@ -275,8 +275,36 @@ body {
     margin: auto;
     height: 20vh;
     width: 20vh;
-    background-image: url(/music-image.jpg);
+    /* background-image: url(/music-image.jpg); */
     background-size: cover;
     margin-bottom: 5px;
+    margin-top: 5px;
     border-radius: 5px;
+}
+
+.music_player_progress{
+    position: absolute;
+
+    height: 10px;
+    width: 12.5%;
+    top: 55%;
+    background-color: rgb(113, 13, 88);
+    overflow: hidden;
+    border-radius: 5px;
+    transform: translateY(120%);
+    transition: all;
+    cursor: pointer;
+}
+
+.music_player.playing.music_player_progress{
+    transform: translateY(0);
+    z-index: 0;
+}
+
+.progress{
+ position: absolute;  
+ background-color: pink; 
+ width: 0%;
+ height: 100%;
+ cursor: pointer;
 }

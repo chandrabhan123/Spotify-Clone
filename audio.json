@@ -1,0 +1,29 @@
+{
+    "songs": [
+        {
+            "title": "DHARIA - Sugar & Brownies",
+            "audio": "audio/DHARIA - Sugar & Brownies (by Monoir) [Official Video].mp3",
+            "cover": "photos/dharia.jpg"
+        },
+        {
+            "title": "Dil Diyan Gallan",
+            "audio": "audio/Dil Diyan Gallan Song  Tiger Zinda Hai  Salman Khan, Katrina Kaif  Atif Aslam  Vishal & Shekhar.mp3",
+            "cover": "photos/dil diya galla.jpg"
+        },
+        {
+            "title": "Love Me Like You Do",
+            "audio": "audio/Ellie Goulding - Love Me Like You Do (Lyrics).mp3",
+            "cover": "photos/love me like a do.jpg"
+        },
+        {
+            "title": "Amplifier",
+            "audio": "audio/Imran Khan - Amplifier (Official Music Video).mp3",
+            "cover": "photos/amplifier.jpg"
+        },
+        {
+            "title": "Baby",
+            "audio": "audio/Justin Bieber - Baby ft. Ludacris.mp3",
+            "cover": "photos/baby.jpg"
+        }
+    ]
+}

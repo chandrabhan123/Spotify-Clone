@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web Player: Music For Everyone</title>
-    <link rel="#" href="/spotify-logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/utility.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -87,17 +86,17 @@
             </div>
             <div class="music-container">
                 <audio id="audio"></audio>
-                <h2 class="music">Happy Clappy</h2>
+                <h2 class="music_title">Happy Clappy</h2>
                 <div class="music_img"></div>
-                <div class="music_player">
+                <div class="music_player playing">
                     <div class="music_player_progress">
                         <div class="progress"></div>
                     </div>
-                    <button id="pre" class="action"><i class="fa-solid fa-backward-step"></i></button>
-                    <button id="play" class="action"><i class="fa-solid fa-play"></i></i></button>
-                    <button id="next" class="action"><i class="fa-solid fa-forward-step"></i></button>
+                    <button id="pre" class="action"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                    <button id="play" class="action"><i class="fa-regular fa-circle-play"></i></button>
+                    <button id="next" class="action"><i class="fa-solid fa-circle-chevron-right"></i></button>
                     <button class="speed action">
-                        <p>1.0X</p>
+                        <p>1.0</p>
                     </button>
                 </div>
             </div>
